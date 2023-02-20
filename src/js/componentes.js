@@ -7,7 +7,7 @@ export const saludar = ( nombre ) => {
 
     const h1 = document.createElement('h1');
     h1.innerText += `Hola ${nombre}`;
-    h1.innerText += ` template webpack.`;
+    h1.innerText += ` template webpack 20/02/23.`;
     document.body.append(h1);
 
     /* ----------------------------------- img ---------------------------------- */
