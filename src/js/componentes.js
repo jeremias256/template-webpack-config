@@ -2,14 +2,17 @@ import '../css/componentes.css';
 import webpacklogo from '../assets/img/webpack-logo.png';
 
 export const saludar = ( nombre ) => {
-    console.log("Hola Jeremías!!!");
+
+    console.log('🚀 - file: componentes.js:6 - template webpack');
 
     const h1 = document.createElement('h1');
-    h1.innerText = `Hola ${nombre}!!!$$$/223312`;
+    h1.innerText += `Hola ${nombre}`;
+    h1.innerText += ` template webpack.`;
     document.body.append(h1);
 
-    //img
+    /* ----------------------------------- img ---------------------------------- */
     const img = document.createElement('img');
     img.src = webpacklogo;
     document.body.append(img);
 }
+    

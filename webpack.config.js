@@ -44,7 +44,7 @@ module.exports = {
         }),
 
         new MiniCssExtract({
-            filename: '[name].[fullhash].css',
+            filename: '[name].css',
             ignoreOrder: false
         }),
 

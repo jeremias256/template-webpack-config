@@ -1,7 +1,7 @@
 {
-  "name": "8webpack_jere",
+  "name": "template-webpack-config",
   "version": "1.0.0",
-  "description": "webpack config",
+  "description": "Configuraciones para webpack.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
     "build:dev": "webpack --config webpack.config.js",
     "start": "webpack serve --config webpack.config.js --open --port=8080"
   },
-  "author": "Jeremías",
+  "author": "Jeremias",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.17.10",
